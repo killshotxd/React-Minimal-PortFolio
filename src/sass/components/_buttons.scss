@@ -38,12 +38,6 @@
     }
   }
 
-  @include respond(phone) {
-    background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
-  }
-
   &::after {
     background-image: linear-gradient(
       135deg,
